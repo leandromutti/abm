@@ -1,0 +1,11 @@
+CREATE TABLE `USUARIO` (
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(20) NOT NULL,
+  `password` varchar(128) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_usuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+
+insert into USUARIO(usuario, password,nombre, apellido) VALUES('admin','64cf59004ecb3a60b881b9bf7f757791d26daa06c5bcc145945d64f9c6ee31d552c790f0641f3b9c72c11132582951b59756fa3ce103683f33fcb226369d9fb2','Leandro','Mutti');
+
